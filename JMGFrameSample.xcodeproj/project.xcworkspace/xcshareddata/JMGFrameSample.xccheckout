@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>37BA003F-F84C-4D26-BF1B-231FA08AB94F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JMGFrameSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>74C66BD1-A4ED-40B5-A96D-09D7FFBA859A</key>
+		<string>ssh://github.com/patoroco/JMGFrame.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JMGFrameSample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>74C66BD1-A4ED-40B5-A96D-09D7FFBA859A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/patoroco/JMGFrame.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>74C66BD1-A4ED-40B5-A96D-09D7FFBA859A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>74C66BD1-A4ED-40B5-A96D-09D7FFBA859A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JMGFrame</string>
+		</dict>
+	</array>
+</dict>
+</plist>
