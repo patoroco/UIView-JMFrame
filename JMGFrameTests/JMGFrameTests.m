@@ -7,28 +7,65 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "UIView+JMFrame.h"
 
-@interface JMGFrameTests : XCTestCase
+@interface JMGFrameTests : XCTestCase{
+    UIView *view;
+}
 
 @end
 
 @implementation JMGFrameTests
 
-- (void)setUp
-{
+static CGFloat xIni = 1;
+static CGFloat yIni = 2;
+static CGFloat widthIni = 3;
+static CGFloat heightIni = 4;
+
+- (void)setUp{
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    view = [[UIView alloc] initWithFrame:CGRectMake(xIni, yIni, widthIni, heightIni)];
 }
 
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+- (void)tearDown{
     [super tearDown];
+    view = nil;
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+#pragma mark - Accessors
+- (void)testAccessors{
+    XCTAssertEqual(view.x, xIni);
+    XCTAssertEqual(view.y, yIni);
+    XCTAssertEqual(view.width, widthIni);
+    XCTAssertEqual(view.height, heightIni);
 }
 
+#pragma mark - Transformations
+- (void)testMove{
+    CGFloat newX = 15;
+    CGFloat newY = 40;
+    
+    view.x = newX;
+    view.y = newY;
+    
+    XCTAssertEqual(view.x, newX);
+    XCTAssertEqual(view.y, newY);
+    
+    XCTAssertEqual(view.width, widthIni);
+    XCTAssertEqual(view.height, heightIni);
+}
+
+- (void)testResize{
+    CGFloat newWidth = 45;
+    CGFloat newHeight = 60;
+    
+    view.width = newWidth;
+    view.height = newHeight;
+    
+    XCTAssertEqual(view.width, newWidth);
+    XCTAssertEqual(view.height, newHeight);
+
+    XCTAssertEqual(view.x, xIni);
+    XCTAssertEqual(view.y, yIni);
+}
 @end

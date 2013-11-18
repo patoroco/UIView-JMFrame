@@ -1,1 +1,3 @@
 language: objective-c
+script:
+- xctool test -project JMGFrameSample.xcodeproj -scheme JMGFrameSample -sdk iphonesimulator

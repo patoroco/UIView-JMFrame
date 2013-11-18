@@ -384,14 +384,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JMGFrame.app/JMGFrame";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JMGFrameSample.app/JMGFrameSample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JMGFrame/JMGFrame-Prefix.pch";
+				GCC_PREFIX_HEADER = JMGFrameSample/Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -407,14 +407,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JMGFrame.app/JMGFrame";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JMGFrameSample.app/JMGFrameSample";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JMGFrame/JMGFrame-Prefix.pch";
+				GCC_PREFIX_HEADER = JMGFrameSample/Prefix.pch;
 				INFOPLIST_FILE = "JMGFrameTests/JMGFrameSampleTests-Info.plist";
 				PRODUCT_NAME = JMGFrameSampleTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
