@@ -2,6 +2,8 @@
 
 UIView category to help the handling of view frames.
 
+![](https://travis-ci.org/patoroco/JMGFrame.png)
+
 ##Example usage
 Inside a UIViewController:
 
