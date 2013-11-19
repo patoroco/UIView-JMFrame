@@ -1,8 +1,6 @@
-#UIView+JMFrame
+#UIView+JMFrame [![Pod version](https://cocoapod-badges.herokuapp.com/v/JMFrame/badge.png)](http://cocoadocs.org/docsets/JMFrame/) [![Build Status](https://travis-ci.org/patoroco/JMGFrame.png?branch=master)](https://travis-ci.org/patoroco/JMGFrame)
 
 UIView category to help the handling of view frames.
-
-![](https://travis-ci.org/patoroco/JMGFrame.png)
 
 ##Example usage
 Inside a UIViewController:
