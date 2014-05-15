@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9818D08183AAB93007F0A5F /* UIView+JMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B9818D07183AAB93007F0A5F /* UIView+JMFrame.m */; };
+		B96A3FAF19255513009B3E52 /* UIView+JMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B96A3FAE19255513009B3E52 /* UIView+JMFrame.m */; };
+		B96A3FB419255604009B3E52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B96A3FB119255604009B3E52 /* main.m */; };
 		B9C9DBC1183AA52100AFC62E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C9DBC0183AA52100AFC62E /* Foundation.framework */; };
 		B9C9DBC3183AA52100AFC62E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C9DBC2183AA52100AFC62E /* CoreGraphics.framework */; };
 		B9C9DBC5183AA52200AFC62E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C9DBC4183AA52200AFC62E /* UIKit.framework */; };
-		B9C9DBCD183AA52200AFC62E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C9DBCC183AA52200AFC62E /* main.m */; };
 		B9C9DBD1183AA52200AFC62E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C9DBD0183AA52200AFC62E /* AppDelegate.m */; };
 		B9C9DBDA183AA52200AFC62E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C9DBD9183AA52200AFC62E /* XCTest.framework */; };
 		B9C9DBDB183AA52200AFC62E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C9DBC0183AA52100AFC62E /* Foundation.framework */; };
 		B9C9DBDC183AA52200AFC62E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C9DBC4183AA52200AFC62E /* UIKit.framework */; };
-		B9C9DBE4183AA52200AFC62E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9C9DBE2183AA52200AFC62E /* InfoPlist.strings */; };
 		B9C9DBE6183AA52200AFC62E /* JMGFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C9DBE5183AA52200AFC62E /* JMGFrameTests.m */; };
 /* End PBXBuildFile section */
 
@@ -31,21 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B9818D06183AAB93007F0A5F /* UIView+JMFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JMFrame.h"; sourceTree = "<group>"; };
-		B9818D07183AAB93007F0A5F /* UIView+JMFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JMFrame.m"; sourceTree = "<group>"; };
-		B9C9DBBD183AA52100AFC62E /* JMGFrameSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMGFrameSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96A3FAD19255513009B3E52 /* UIView+JMFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JMFrame.h"; sourceTree = "<group>"; };
+		B96A3FAE19255513009B3E52 /* UIView+JMFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JMFrame.m"; sourceTree = "<group>"; };
+		B96A3FB019255604009B3E52 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B96A3FB119255604009B3E52 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B96A3FB219255604009B3E52 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		B9C9DBBD183AA52100AFC62E /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C9DBC0183AA52100AFC62E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B9C9DBC2183AA52100AFC62E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B9C9DBC4183AA52200AFC62E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		B9C9DBC8183AA52200AFC62E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9C9DBCC183AA52200AFC62E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B9C9DBCE183AA52200AFC62E /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
-		B9C9DBCF183AA52200AFC62E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = JMGFrameSample/AppDelegate.h; sourceTree = "<group>"; };
-		B9C9DBD0183AA52200AFC62E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = JMGFrameSample/AppDelegate.m; sourceTree = "<group>"; };
-		B9C9DBD8183AA52200AFC62E /* JMGFrameSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMGFrameSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C9DBCF183AA52200AFC62E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SampleProject/AppDelegate.h; sourceTree = "<group>"; };
+		B9C9DBD0183AA52200AFC62E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SampleProject/AppDelegate.m; sourceTree = "<group>"; };
+		B9C9DBD8183AA52200AFC62E /* SampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C9DBD9183AA52200AFC62E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		B9C9DBE1183AA52200AFC62E /* JMGFrameSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JMGFrameSampleTests-Info.plist"; sourceTree = "<group>"; };
-		B9C9DBE3183AA52200AFC62E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9C9DBE1183AA52200AFC62E /* SampleProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "SampleProjectTests-Info.plist"; path = "SampleProjectTests/SampleProjectTests-Info.plist"; sourceTree = "<group>"; };
 		B9C9DBE5183AA52200AFC62E /* JMGFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMGFrameTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,19 +71,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B9818D05183AAB93007F0A5F /* JMFrame */ = {
+		B96A3FAC19255513009B3E52 /* UIView+JMFrame */ = {
 			isa = PBXGroup;
 			children = (
-				B9818D06183AAB93007F0A5F /* UIView+JMFrame.h */,
-				B9818D07183AAB93007F0A5F /* UIView+JMFrame.m */,
+				B96A3FAD19255513009B3E52 /* UIView+JMFrame.h */,
+				B96A3FAE19255513009B3E52 /* UIView+JMFrame.m */,
 			);
-			path = JMFrame;
+			path = "UIView+JMFrame";
+			sourceTree = "<group>";
+		};
+		B96A3FB51925560B009B3E52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B96A3FB019255604009B3E52 /* Info.plist */,
+				B96A3FB119255604009B3E52 /* main.m */,
+				B96A3FB219255604009B3E52 /* Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = SampleProject;
 			sourceTree = "<group>";
 		};
 		B9C9DBB4183AA52100AFC62E = {
 			isa = PBXGroup;
 			children = (
-				B9818D05183AAB93007F0A5F /* JMFrame */,
+				B96A3FAC19255513009B3E52 /* UIView+JMFrame */,
 				B9C9DBC6183AA52200AFC62E /* JMGFrameSample */,
 				B9C9DBDF183AA52200AFC62E /* JMGFrameTests */,
 				B9C9DBBF183AA52100AFC62E /* Frameworks */,
@@ -96,8 +105,8 @@
 		B9C9DBBE183AA52100AFC62E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9C9DBBD183AA52100AFC62E /* JMGFrameSample.app */,
-				B9C9DBD8183AA52200AFC62E /* JMGFrameSampleTests.xctest */,
+				B9C9DBBD183AA52100AFC62E /* SampleProject.app */,
+				B9C9DBD8183AA52200AFC62E /* SampleProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,20 +127,9 @@
 			children = (
 				B9C9DBCF183AA52200AFC62E /* AppDelegate.h */,
 				B9C9DBD0183AA52200AFC62E /* AppDelegate.m */,
-				B9C9DBC7183AA52200AFC62E /* Supporting Files */,
+				B96A3FB51925560B009B3E52 /* Supporting Files */,
 			);
 			name = JMGFrameSample;
-			sourceTree = "<group>";
-		};
-		B9C9DBC7183AA52200AFC62E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B9C9DBC8183AA52200AFC62E /* Info.plist */,
-				B9C9DBCC183AA52200AFC62E /* main.m */,
-				B9C9DBCE183AA52200AFC62E /* Prefix.pch */,
-			);
-			name = "Supporting Files";
-			path = JMGFrameSample;
 			sourceTree = "<group>";
 		};
 		B9C9DBDF183AA52200AFC62E /* JMGFrameTests */ = {
@@ -140,24 +138,25 @@
 				B9C9DBE5183AA52200AFC62E /* JMGFrameTests.m */,
 				B9C9DBE0183AA52200AFC62E /* Supporting Files */,
 			);
-			path = JMGFrameTests;
+			name = JMGFrameTests;
+			path = SampleProjectTests;
 			sourceTree = "<group>";
 		};
 		B9C9DBE0183AA52200AFC62E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B9C9DBE1183AA52200AFC62E /* JMGFrameSampleTests-Info.plist */,
-				B9C9DBE2183AA52200AFC62E /* InfoPlist.strings */,
+				B9C9DBE1183AA52200AFC62E /* SampleProjectTests-Info.plist */,
 			);
 			name = "Supporting Files";
+			path = "SampleProjectTests/Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B9C9DBBC183AA52100AFC62E /* JMGFrameSample */ = {
+		B9C9DBBC183AA52100AFC62E /* SampleProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9C9DBE9183AA52200AFC62E /* Build configuration list for PBXNativeTarget "JMGFrameSample" */;
+			buildConfigurationList = B9C9DBE9183AA52200AFC62E /* Build configuration list for PBXNativeTarget "SampleProject" */;
 			buildPhases = (
 				B9C9DBB9183AA52100AFC62E /* Sources */,
 				B9C9DBBA183AA52100AFC62E /* Frameworks */,
@@ -167,14 +166,14 @@
 			);
 			dependencies = (
 			);
-			name = JMGFrameSample;
+			name = SampleProject;
 			productName = JMGFrame;
-			productReference = B9C9DBBD183AA52100AFC62E /* JMGFrameSample.app */;
+			productReference = B9C9DBBD183AA52100AFC62E /* SampleProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B9C9DBD7183AA52200AFC62E /* JMGFrameSampleTests */ = {
+		B9C9DBD7183AA52200AFC62E /* SampleProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9C9DBEC183AA52200AFC62E /* Build configuration list for PBXNativeTarget "JMGFrameSampleTests" */;
+			buildConfigurationList = B9C9DBEC183AA52200AFC62E /* Build configuration list for PBXNativeTarget "SampleProjectTests" */;
 			buildPhases = (
 				B9C9DBD4183AA52200AFC62E /* Sources */,
 				B9C9DBD5183AA52200AFC62E /* Frameworks */,
@@ -185,9 +184,9 @@
 			dependencies = (
 				B9C9DBDE183AA52200AFC62E /* PBXTargetDependency */,
 			);
-			name = JMGFrameSampleTests;
+			name = SampleProjectTests;
 			productName = JMGFrameTests;
-			productReference = B9C9DBD8183AA52200AFC62E /* JMGFrameSampleTests.xctest */;
+			productReference = B9C9DBD8183AA52200AFC62E /* SampleProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -197,7 +196,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JMG;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Jorge Maroto";
 				TargetAttributes = {
 					B9C9DBD7183AA52200AFC62E = {
@@ -205,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B9C9DBB8183AA52100AFC62E /* Build configuration list for PBXProject "JMGFrameSample" */;
+			buildConfigurationList = B9C9DBB8183AA52100AFC62E /* Build configuration list for PBXProject "SampleProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +216,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9C9DBBC183AA52100AFC62E /* JMGFrameSample */,
-				B9C9DBD7183AA52200AFC62E /* JMGFrameSampleTests */,
+				B9C9DBBC183AA52100AFC62E /* SampleProject */,
+				B9C9DBD7183AA52200AFC62E /* SampleProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +234,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9C9DBE4183AA52200AFC62E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,8 +244,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9818D08183AAB93007F0A5F /* UIView+JMFrame.m in Sources */,
-				B9C9DBCD183AA52200AFC62E /* main.m in Sources */,
+				B96A3FAF19255513009B3E52 /* UIView+JMFrame.m in Sources */,
+				B96A3FB419255604009B3E52 /* main.m in Sources */,
 				B9C9DBD1183AA52200AFC62E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,28 +263,16 @@
 /* Begin PBXTargetDependency section */
 		B9C9DBDE183AA52200AFC62E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9C9DBBC183AA52100AFC62E /* JMGFrameSample */;
+			target = B9C9DBBC183AA52100AFC62E /* SampleProject */;
 			targetProxy = B9C9DBDD183AA52200AFC62E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B9C9DBE2183AA52200AFC62E /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B9C9DBE3183AA52200AFC62E /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B9C9DBE7183AA52200AFC62E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -325,7 +311,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -360,9 +345,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = JMGFrameSample/Prefix.pch;
-				INFOPLIST_FILE = JMGFrameSample/Info.plist;
-				PRODUCT_NAME = JMGFrameSample;
+				GCC_PREFIX_HEADER = SampleProject/Prefix.pch;
+				INFOPLIST_FILE = SampleProject/Info.plist;
+				PRODUCT_NAME = SampleProject;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -373,9 +358,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = JMGFrameSample/Prefix.pch;
-				INFOPLIST_FILE = JMGFrameSample/Info.plist;
-				PRODUCT_NAME = JMGFrameSample;
+				GCC_PREFIX_HEADER = SampleProject/Prefix.pch;
+				INFOPLIST_FILE = SampleProject/Info.plist;
+				PRODUCT_NAME = SampleProject;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -383,21 +368,20 @@
 		B9C9DBED183AA52200AFC62E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JMGFrameSample.app/JMGFrameSample";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleProject.app/SampleProject";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = JMGFrameSample/Prefix.pch;
+				GCC_PREFIX_HEADER = SampleProject/Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "JMGFrameTests/JMGFrameSampleTests-Info.plist";
-				PRODUCT_NAME = JMGFrameSampleTests;
+				INFOPLIST_FILE = "SampleProjectTests/SampleProjectTests-Info.plist";
+				PRODUCT_NAME = SampleProjectTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -406,17 +390,16 @@
 		B9C9DBEE183AA52200AFC62E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JMGFrameSample.app/JMGFrameSample";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleProject.app/SampleProject";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = JMGFrameSample/Prefix.pch;
-				INFOPLIST_FILE = "JMGFrameTests/JMGFrameSampleTests-Info.plist";
-				PRODUCT_NAME = JMGFrameSampleTests;
+				GCC_PREFIX_HEADER = SampleProject/Prefix.pch;
+				INFOPLIST_FILE = "SampleProjectTests/SampleProjectTests-Info.plist";
+				PRODUCT_NAME = SampleProjectTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -425,7 +408,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B9C9DBB8183AA52100AFC62E /* Build configuration list for PBXProject "JMGFrameSample" */ = {
+		B9C9DBB8183AA52100AFC62E /* Build configuration list for PBXProject "SampleProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9C9DBE7183AA52200AFC62E /* Debug */,
@@ -434,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9C9DBE9183AA52200AFC62E /* Build configuration list for PBXNativeTarget "JMGFrameSample" */ = {
+		B9C9DBE9183AA52200AFC62E /* Build configuration list for PBXNativeTarget "SampleProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9C9DBEA183AA52200AFC62E /* Debug */,
@@ -443,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9C9DBEC183AA52200AFC62E /* Build configuration list for PBXNativeTarget "JMGFrameSampleTests" */ = {
+		B9C9DBEC183AA52200AFC62E /* Build configuration list for PBXNativeTarget "SampleProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9C9DBED183AA52200AFC62E /* Debug */,
