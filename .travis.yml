@@ -1,3 +1,8 @@
+before_install:
+- export LANG=en_US.UTF-8
+- gem install xcpretty --no-ri --no-rdoc
+
 language: objective-c
+
 script:
-- xctool test -project JMGFrameSample.xcodeproj -scheme JMGFrameSample -sdk iphonesimulator -configuration Debug
+- ./run_tests.sh 
