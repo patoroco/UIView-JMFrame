@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B9C9DBBC183AA52100AFC62E"
-               BuildableName = "JMGFrameSample.app"
+               BuildableName = "SampleProject.app"
                BlueprintName = "SampleProject"
                ReferencedContainer = "container:SampleProject.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B9C9DBD7183AA52200AFC62E"
-               BuildableName = "JMGFrameSampleTests.xctest"
+               BuildableName = "SampleProjectTests.xctest"
                BlueprintName = "SampleProjectTests"
                ReferencedContainer = "container:SampleProject.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B9C9DBBC183AA52100AFC62E"
-            BuildableName = "JMGFrameSample.app"
+            BuildableName = "SampleProject.app"
             BlueprintName = "SampleProject"
             ReferencedContainer = "container:SampleProject.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B9C9DBBC183AA52100AFC62E"
-            BuildableName = "JMGFrameSample.app"
+            BuildableName = "SampleProject.app"
             BlueprintName = "SampleProject"
             ReferencedContainer = "container:SampleProject.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B9C9DBBC183AA52100AFC62E"
-            BuildableName = "JMGFrameSample.app"
+            BuildableName = "SampleProject.app"
             BlueprintName = "SampleProject"
             ReferencedContainer = "container:SampleProject.xcodeproj">
          </BuildableReference>
