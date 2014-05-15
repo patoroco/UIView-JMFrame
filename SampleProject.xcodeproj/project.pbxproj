@@ -16,7 +16,7 @@
 		B9C9DBDA183AA52200AFC62E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C9DBD9183AA52200AFC62E /* XCTest.framework */; };
 		B9C9DBDB183AA52200AFC62E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C9DBC0183AA52100AFC62E /* Foundation.framework */; };
 		B9C9DBDC183AA52200AFC62E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C9DBC4183AA52200AFC62E /* UIKit.framework */; };
-		B9C9DBE6183AA52200AFC62E /* JMGFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C9DBE5183AA52200AFC62E /* JMGFrameTests.m */; };
+		B9C9DBE6183AA52200AFC62E /* UIView+JMFrameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C9DBE5183AA52200AFC62E /* UIView+JMFrameTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,7 @@
 		B9C9DBD8183AA52200AFC62E /* SampleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C9DBD9183AA52200AFC62E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B9C9DBE1183AA52200AFC62E /* SampleProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "SampleProjectTests-Info.plist"; path = "SampleProjectTests/SampleProjectTests-Info.plist"; sourceTree = "<group>"; };
-		B9C9DBE5183AA52200AFC62E /* JMGFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMGFrameTests.m; sourceTree = "<group>"; };
+		B9C9DBE5183AA52200AFC62E /* UIView+JMFrameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JMFrameTests.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +135,7 @@
 		B9C9DBDF183AA52200AFC62E /* JMGFrameTests */ = {
 			isa = PBXGroup;
 			children = (
-				B9C9DBE5183AA52200AFC62E /* JMGFrameTests.m */,
+				B9C9DBE5183AA52200AFC62E /* UIView+JMFrameTests.m */,
 				B9C9DBE0183AA52200AFC62E /* Supporting Files */,
 			);
 			name = JMGFrameTests;
@@ -254,7 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9C9DBE6183AA52200AFC62E /* JMGFrameTests.m in Sources */,
+				B9C9DBE6183AA52200AFC62E /* UIView+JMFrameTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

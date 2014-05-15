@@ -9,13 +9,13 @@
 #import <XCTest/XCTest.h>
 #import "UIView+JMFrame.h"
 
-@interface JMGFrameTests : XCTestCase{
+@interface JMFrameTests : XCTestCase{
     UIView *view;
 }
 
 @end
 
-@implementation JMGFrameTests
+@implementation JMFrameTests
 
 static CGFloat xIni = 1;
 static CGFloat yIni = 2;

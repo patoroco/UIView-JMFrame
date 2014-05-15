@@ -27,8 +27,6 @@
 
 #import <UIKit/UIKit.h>
 
-#warning "This pod name has been deprecated. Use UIView+JMFrame instead of it."
-
 @interface UIView (JMFrame)
 
 -(CGSize)size;
